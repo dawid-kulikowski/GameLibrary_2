@@ -3,6 +3,7 @@ package pl.dknt.GameLibrary;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "games")
 public class Game {
 
     @Id
